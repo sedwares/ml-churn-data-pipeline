@@ -93,3 +93,10 @@ reports/validation_report.json
 reports/training_metrics.json
 models/churn_model.pkl
 ```
+
+## Demo Video
+
+A short walkthrough of the ML churn data pipeline, including validation,
+quality-gate logic, model training, and failure handling:
+
+[Watch the demo video](https://youtu.be/uCa7C8rOJ4E)
