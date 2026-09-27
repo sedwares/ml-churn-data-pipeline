@@ -1,0 +1,12 @@
+paths:
+  ml_ready_data: data/processed/patient_engagement_ml_ready.csv
+  model: models/churn_model.pkl
+  validation_report: reports/validation_report.json
+  training_metrics: reports/training_metrics.json
+
+validation:
+  min_valid_percentage: 90
+  min_valid_rows_for_training: 20
+
+pipeline:
+  reference_date: "2026-09-26"
